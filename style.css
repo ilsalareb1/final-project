@@ -9,31 +9,31 @@
 
 }
 
-.nav-bar{
+
+
+ul {
     position: relative;
     width: auto;
     height: 64px;
     background-color: 3399FF ;
-}
-
-ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
   }
   
   li {
-    float: left;
+    float: right;
   }
   
   li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    top: 5%;
+    padding: 14px 18px;
     text-decoration: none;
+
   }
   
   /* Change the link color to #111 (black) on hover */
@@ -45,7 +45,7 @@ ul {
     margin-left: 50%;
     margin-right: 0%;
     width: 50%;   
-    height: 856px;
+    height: 905px;
     background-color: skyblue; 
 }
 
